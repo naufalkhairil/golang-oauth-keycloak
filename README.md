@@ -71,5 +71,31 @@ If authenticated, the response in your client should be like this
 ```
 2024/10/02 10:57:27 Client authenticated
 
-{"acr":"1","at_hash":"ndEoNVReVODCZzFBoAf3tw","aud":"myclient","auth_time":1727841615,"azp":"myclient","email":"dummy@gmail.com","email_verified":true,"exp":1727841625,"family_name":"email","given_name":"dummy","iat":1727841615,"iss":"http://localhost:8080/realms/myrealm","jti":"b7dd7a27-4b31-4dfd-8f3b-652fd6856e3e","name":"dummy email","oauth2token":{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTZ3F2...","token_type":"Bearer","refresh_token":"eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJmMWY0...","expiry":"2024-10-02T11:00:25.372075643+07:00"},"preferred_username":"dummy","rawIDtoken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTZ3F2Wl...","sid":"ca3de662-0f23-4346-ba9c-1ba86e7103d3","sub":"3d088ad5-211e-464d-a502-194336802726","typ":"ID"}
+{
+  "acr": "1",
+  "at_hash": "ndEoNVReVODCZzFBoAf3tw",
+  "aud": "myclient",
+  "auth_time": 1727841615,
+  "azp": "myclient",
+  "email": "dummy@gmail.com",
+  "email_verified": true,
+  "exp": 1727841625,
+  "family_name": "email",
+  "given_name": "dummy",
+  "iat": 1727841615,
+  "iss": "http://localhost:8080/realms/myrealm",
+  "jti": "b7dd7a27-4b31-4dfd-8f3b-652fd6856e3e",
+  "name": "dummy email",
+  "oauth2token": {
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSl...",
+    "token_type": "Bearer",
+    "refresh_token": "eyJhbGciOiJIUzUxMiIsInR5cCIgOi...",
+    "expiry": "2024-10-02T11:00:25.372075643+07:00"
+  },
+  "preferred_username": "dummy",
+  "rawIDtoken": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkI...",
+  "sid": "ca3de662-0f23-4346-ba9c-1ba86e7103d3",
+  "sub": "3d088ad5-211e-464d-a502-194336802726",
+  "typ": "ID"
+}
 ```
